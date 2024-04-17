@@ -22,9 +22,9 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "James!💪",
+                "James💪",
                 1000,
-                "Web Developer👨‍💻",
+                "Web Designer👨‍💻",
                 1000,
                 "Forex Trader📈",
                 1000,
@@ -47,7 +47,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="Resume.docx" download='James Resume.docx'
+              href="Resume.pdf" download='James Resume.pdf'
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

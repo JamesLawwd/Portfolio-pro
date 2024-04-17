@@ -8,7 +8,6 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
     image: "/images/projects/pro.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -17,7 +16,6 @@ const projectsData = [
   {
     id: 2,
     title: "Movie Website",
-    description: "Project 2 description",
     image: "/images/projects/movie.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JamesLawwd/movie-site",
@@ -26,7 +24,6 @@ const projectsData = [
   {
     id: 3,
     title: "Real Estate",
-    description: "Project 3 description",
     image: "/images/projects/real.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JamesLawwd/R.State",
@@ -35,7 +32,6 @@ const projectsData = [
   {
     id: 4,
     title: "Hotelier",
-    description: "Project 4 description",
     image: "/images/projects/hotel.png",
     tag: ["All"],
     gitUrl: "https://github.com/JamesLawwd/Hotilier",
@@ -44,7 +40,6 @@ const projectsData = [
   {
     id: 5,
     title: "Gym Website",
-    description: "Authentication and CRUD operations",
     image: "/images/projects/gym.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JamesLawwd/Gym",
@@ -52,13 +47,12 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Tour & Travel Agency",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "Modern Bank App",
+    image: "/images/projects/bank.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/JamesLawwd/Travel-II",
-    previewUrl: "https://travel-ii.vercel.app/",
-  },
+    gitUrl: "https://github.com/JamesLawwd/modern_app/",
+    previewUrl: "https://modern-app-three.vercel.app/"
+  }, 
 ];
 
 const ProjectsSection = () => {
@@ -109,7 +103,6 @@ const ProjectsSection = () => {
             <ProjectCard
               key={project.id}
               title={project.title}
-              description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
