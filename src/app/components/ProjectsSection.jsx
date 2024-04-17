@@ -10,8 +10,8 @@ const projectsData = [
     title: "React Portfolio Website",
     image: "/images/projects/pro.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/JamesLawwd/Portfolio-pro",
+    previewUrl: "https://portfolio-pro-tau.vercel.app/",
   },
   {
     id: 2,
