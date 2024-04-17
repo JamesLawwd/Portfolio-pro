@@ -8,9 +8,9 @@ const EmailSection = () => {
   return (
     <section id="contact" className="my-12 md:my-12 py-24">
       <form className="flex flex-col items-center border border-primary rounded-lg p-6 max-w-lg mx-auto text-white">
-        <h5 className="text-xl font-bold mb-4">Let's Connect</h5>
+        <h5 className="text-xl font-bold mb-4">Let&apos;s Connect</h5>
         <p className="text-[#E0E7FF] mb-8 text-center">
-          I'm currently seeking new opportunities in software development to apply my diverse skills and experience.
+          I&apos;m currently seeking new opportunities in software development to apply my diverse skills and experience.
           With a background in coding, problem-solving, and collaboration, I bring a passion for innovation and a proven track record of delivering high-quality solutions.
           Excited to connect and explore possibilities.
         </p>
