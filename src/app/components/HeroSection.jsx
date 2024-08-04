@@ -24,11 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "James💪",
                 1000,
-                "Web Designer👨‍💻",
+                "A Web Designer👨‍💻",
                 1000,
-                "Forex Trader📈",
+                "A Forex Trader📈",
                 1000,
-                "UI/UX Designer🌐",
+                "A UI/UX Designer🌐",
                 1000,
               ]}
               wrapper="span"
@@ -47,7 +47,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="jamesResume.pdf" download='jamesResume.pdf'
+              href="jamesResume.pdf " download='jamesResume.pdf'
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
