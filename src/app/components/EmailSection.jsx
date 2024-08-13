@@ -30,7 +30,7 @@ const ContactSection = () => (
         </a>
         
         <a href="tel:254714178292" className="text-white text-sm font-medium flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
-          <FaWhatsapp className="social-icon" style={{ fontSize: '20px', color: '#25d366' }} /> <br /><br />
+          <FaWhatsapp className="social-icon" style={{ fontSize: '20px', color: '#25d366' }} /> 
           <FaPhone className="social-icon" style={{ fontSize: '20px', color: '#00df9a' }} />
           <span className="text-sm sm:text-base">+254 714 178292</span>
         </a>
