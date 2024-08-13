@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { FaWhatsapp, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaWhatsapp, FaLinkedin, FaPhone } from 'react-icons/fa';
 
 const EmailSection = () => {
   const [] = useState(false);
@@ -28,14 +28,16 @@ const EmailSection = () => {
             <FaLinkedin className="social-icon" style={{ fontSize: '20px', color: '#0077b5' }} />
             LinkedIn
           </a>
-          <a href="https://www.instagram.com/walkinknight" target="_blank" rel="noopener noreferrer" className="text-white text-sm font-medium flex items-center gap-1">
+          {/* <a href="https://www.instagram.com/walkinknight" target="_blank" rel="noopener noreferrer" className="text-white text-sm font-medium flex items-center gap-1">
             <FaInstagram className="social-icon" style={{ fontSize: '20px', color: '#833ab4' }} />
             Instagram
-          </a>
-          <a href="tel:254714178292" className="text-white text-sm font-medium flex items-center gap-1">
-            <FaWhatsapp className="social-icon" style={{ fontSize: '20px', color: '#25d366' }} />
-            +254 714 178292
-          </a>
+          </a> */}
+         <a href="tel:254714178292" className="text-white text-sm font-medium flex items-center gap-2">
+          <FaWhatsapp className="social-icon" style={{ fontSize: '20px', color: '#25d366' }} />
+          <FaPhone className="social-icon" style={{ fontSize: '20px', color: '#00df9a' }} />
+          +254 714 178292
+        </a>
+
         </div>
         { (
           <p className="text-white text-lg font-bold mt-2">Thank you!</p>
