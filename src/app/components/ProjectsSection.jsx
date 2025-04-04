@@ -7,15 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    image: "/images/projects/pro.png",
+    title: "TenantSphere",
+    image: "/images/projects/tenants.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/JamesLawwd/Portfolio-pro",
-    previewUrl: "https://portfolio-pro-tau.vercel.app/",
+    gitUrl: "https://github.com/JamesLawwd/tenantio-dashboard",
+    previewUrl: "https://tenantio-dashboard.vercel.app/",
   },
   {
     id: 2,
-    title: "Movie Website",
+    title: "MovieVerse",
     image: "/images/projects/movie.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JamesLawwd/movie-site",
@@ -39,7 +39,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Gym Website",
+    title: "FitNation",
     image: "/images/projects/gym.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JamesLawwd/Gym",
@@ -47,7 +47,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Modern Bank App",
+    title: "BankSphere",
     image: "/images/projects/bank.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/JamesLawwd/modern_app/",
